@@ -13,6 +13,7 @@ var watch             = require('gulp-watch');
 var rename            = require('gulp-rename');
 
 var opn               = require('opn');
+var del               = require('del');
 var argv              = require('yargs').argv;
 var runsequence       = require('run-sequence');
 var browserSync       = require('browser-sync').create();
@@ -51,6 +52,7 @@ gulp.task('scripts', function() {
     .pipe(plumber(plumberErrorHandler))
     .pipe(sourcemaps.init())
     .pipe(concat('main.js'))
+    .pipe(uglify())
     .pipe(sourcemaps.write())
     .pipe(gulp.dest('deploy/scripts'))
     .pipe(reload({stream: true}));
