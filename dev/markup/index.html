@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+
+  <title>What The Fuck Should I Drink Tonight?</title>
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+</head>
+<body>
+
+  <div class="about-overlay" id="js-about-overlay">
+    <div class="about-container">
+    <h2 class="about-heading">About wtfdrink.com</h2>
+    <div class="about-close" id="js-about-close">+</div>
+    <p><strong>Do you have a hard time making decisions?</strong> Has anyone ever called you wishy-washy? Have you ever tried drinking windex?  You choose answer "D", All Of The Above? Well ok then, you're definitely in the right place<br><br>You see, at WhatTheFuckShouldIDrinkTonight, we're here to help you make all your drink related decisions and to protect you from drinking windex (<b>Protip: It tastes bad</b>). Let us tell you the ingredients you'll need (don't worry, we'll keep it simple) and how to make the drinks and you just sit back and relax.  Simple as that!</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <nav class="site-navigation">
+      <div class="logo-wrapper pull-left">
+        <img src="/images/logo.min.png" alt="The Logo" />
+        <h1 class="logo-text-wrapper">
+          <span class="logo-text topline">What The Fuck</span>
+          <span class="logo-text middleline">Should I Drink</span>
+          <span class="logo-text bottomline">Tonight?</span>
+        </h1>
+      </div>
+      <div class="navigation-item"><a id="js-about-open" href="#">about</a></div>
+      <div class="navigation-item"><a href="http://tylershambora.com" target="_blank">tylershambora.com</a></div>
+      <div class="navigation-item inspired-by">inspiried by <span class="black boldtext"><a href="http://whatthefuckshouldimakefordinner.com/" target="_blank">this</a></span></div>
+    </nav>
+  </header>
+
+  <main class="main-container" id="guts">
+    <div class="prompt" id="js-template-prompt"></div>
+    <div class="drinkname" id="js-template-drinkname"></div>
+    <div class="give-me-another-i-want-more"><a id="js-trigger-moar-drinks" href="#">I don't wanna fucking drink that.</a></div>
+    <div class="im-laying-off-the-sauce"><a id="js-trigger-drinktype" href="#">I don't wanna fucking drink alcohol.</a></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="fb-login-container" id="js-state-fb-login-status"><fb:login-button scope="publish_actions" onlogin="wtfFacebook.checkLoginState();"></fb:login-button></div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+
+</body>
+</html>
