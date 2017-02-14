@@ -1,5 +1,3 @@
-# wtfdrink
-
 <p align="center">
   <img width="100%" src="http://i.imgur.com/wzeK3dA.png" />
 </p>
