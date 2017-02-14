@@ -1,4 +1,9 @@
 # wtfdrink
+
+<p align="center">
+  <img width="100%" src="http://i.imgur.com/wzeK3dA.png" />
+</p>
+
 a re-re-re-factor of everyone's favorite site, [whatthefuckshouldidrinktonight.com](http://whatthefuckshouldidrinktonight.com) (a.k.a. [wtfdrink](http://wtfdrink.com))
 
 ## Current Version
